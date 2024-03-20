@@ -1,0 +1,18 @@
+{
+    "jobs": [
+        {
+            "title": "Web Developer",
+            "place": "Powertrain Ventures",
+            "period": "October 2023 - March 2024",
+            "skills": ["WordPress", "DigitalOcean", "RESTful APIs", "Jira"],
+            "description": "test"
+        },
+        {
+            "title": "Front-End Developer",
+            "place": "Laboratoria",
+            "period": "March 2023 - September 2023",
+            "skills": ["React", "TypeScript", "Tailwind CSS", "JavaScript", "CSS", "HTML", "Node.js", "Jest", "Git"],
+            "description": "test"
+        }
+    ]
+}
