@@ -1,6 +1,7 @@
 import { Spline_Sans_Mono } from "next/font/google";
 import GithubSvg from "./svg/Github";
 import LinkedinSvg from "./svg/Linkedin";
+import EmailSvg from "./svg/Email";
 
 const spline = Spline_Sans_Mono({
   subsets: ["latin"],
@@ -27,6 +28,9 @@ export default function Intro() {
           </a>
           <a href="https://www.linkedin.com/in/thatmare/">
             <LinkedinSvg className="mx-2" />
+          </a>
+          <a href="mailto:marissa.lorena@hotmail.com">
+            <EmailSvg className="mx-2"/>
           </a>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import data from "@/app/data/projects.json";
+import Image from "next/image";
 import { Spline_Sans_Mono } from "next/font/google";
+import LinkSvg from "./svg/Link";
 
 const spline = Spline_Sans_Mono({
   subsets: ["latin"],
@@ -17,24 +19,33 @@ export default function Projects() {
       </div>
       <div className="px-8">
         {data.projects.map((project, index) => (
-          <a href={project.link} key={index}>
-            <div className="mb-8">
-              <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg py-2">
-                {project.title}
-              </h4>
-              <p className="py-2 font-extralight leading-relaxed">{project.description}</p>
-              <ul className="flex flex-wrap py-2">
-                {project.skills.map((skill, i) => (
-                  <li
-                    key={i}
-                    className={`${spline.className} bg-moody-blue-950 text-moody-blue-400  flex items-center rounded-full py-1 px-3 m-1 text-xs`}
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+          <div
+            key={index}
+            className="mb-8 border-2 border-moody-blue-800 rounded-md p-2"
+          >
+            <div className="flex items-center">
+              <LinkSvg className="fill-moody-blue-200/90 mr-2" />
+
+              <a href={project.link}>
+                <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg py-2">
+                  {project.title}
+                </h4>
+              </a>
             </div>
-          </a>
+            <p className="py-2 font-extralight leading-relaxed">
+              {project.description}
+            </p>
+            <ul className="flex flex-wrap py-2">
+              {project.skills.map((skill, i) => (
+                <li
+                  key={i}
+                  className={`${spline.className} bg-moody-blue-950 text-moody-blue-400  flex items-center rounded-full py-1 px-3 m-1 text-xs`}
+                >
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
       </div>
     </section>
