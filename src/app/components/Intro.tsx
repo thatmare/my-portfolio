@@ -12,11 +12,11 @@ export default function Intro() {
     <section className="px-8 mb-20">
       <div className="mb-20">
         <h1
-          className={`${spline.className} text-3xl font-medium pt-20 text-moody-blue-400/80 tracking-widest`}
+          className={`${spline.className} text-moody-blue-400/80 tracking-widest text-3xl font-bold pt-20 `}
         >
           Marissa Vargas Sánchez
         </h1>
-        <h2 className="text-xl font-medium py-6 text-moody-blue-200/90">
+        <h2 className="text-moody-blue-200/90 font-medium text-xl py-2">
           Frontend Developer
         </h2>
         <p className="font-light">

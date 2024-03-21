@@ -3,6 +3,7 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Jobs from "./components/Jobs";
 import Projects from "./components/Projects";
+import Head from "next/head";
 
 const dm = DM_Sans({
   subsets: ['latin']
