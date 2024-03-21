@@ -11,7 +11,7 @@ export default function About() {
     <section className="px-8 mb-20">
       <div className="mb-20">
         <h1
-          className={`${spline.className} text-3xl font-medium pt-20 text-moody-blue-200/90 tracking-widest`}
+          className={`${spline.className} text-3xl font-medium pt-20 text-moody-blue-400/80 tracking-widest`}
         >
           Marissa Vargas Sánchez
         </h1>
@@ -32,7 +32,7 @@ export default function About() {
       </div>
       <div>
         <h3
-          className={`${spline.className} font-semibold tracking-widest py-8 text-moody-blue-200/90`}
+          className={`${spline.className} font-semibold tracking-widest py-8 text-moody-blue-400/80`}
         >
           about
         </h3>
