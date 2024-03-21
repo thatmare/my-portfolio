@@ -1,18 +1,29 @@
 {
-    "jobs": [
-        {
-            "title": "Web Developer",
-            "place": "Powertrain Ventures",
-            "period": "October 2023 - March 2024",
-            "skills": ["WordPress", "DigitalOcean", "RESTful APIs", "Jira"],
-            "description": "test"
-        },
-        {
-            "title": "Front-End Developer",
-            "place": "Laboratoria",
-            "period": "March 2023 - September 2023",
-            "skills": ["React", "TypeScript", "Tailwind CSS", "JavaScript", "CSS", "HTML", "Node.js", "Jest", "Git"],
-            "description": "test"
-        }
-    ]
+  "jobs": [
+    {
+      "title": "Web Developer",
+      "place": "Powertrain Ventures",
+      "period": "October 2023 - March 2024",
+      "skills": ["WordPress", "DigitalOcean", "RESTful APIs", "Jira", "SCRUM"],
+      "description": "Lead the rebranding of the company's website, optimizing the UI design, performance and mobile responsiveness. Manage the IT operations, improving processes by implementing project management and communication tools. Work closely with the business strategy and marketing teams to advocate for the company's path."
+    },
+    {
+      "title": "Frontend Developer",
+      "place": "Laboratoria",
+      "period": "March 2023 - September 2023",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Node.js",
+        "Jest",
+        "Git",
+        "Agile"
+      ],
+      "description": "Develop five frontend projects within six months, achieving unit testing and performance standards. Work closely with the development team to ensure responsive design and seamless integration of RESTful APIs. Participate in agile development sprints, such as retrospective and review, as well as feature planning with the Kanban methodology."
+    }
+  ]
 }

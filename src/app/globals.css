@@ -4,5 +4,5 @@
 
 body {
     @apply bg-slate-900;
-    @apply text-moody-blue-100;
+    @apply text-moody-blue-200/60;
 }

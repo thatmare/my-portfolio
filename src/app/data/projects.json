@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "Powertrain Ventures",
+      "description": "Website for the company",
+      "link": "",
+      "skills": ["WordPress", "Elementor"]
+    },
+    {
+      "title": "Queen Patty's",
+      "description": "Restaurant management",
+      "link": "",
+      "skills": ["React", "TypeScript", "Tailwind CSS"]
+    },
+    {
+      "title": "md-links",
+      "description": "Website for the company",
+      "link": "",
+      "skills": ["Node.js", "JavaScript", "Axios"]
+    }
+  ]
+}
