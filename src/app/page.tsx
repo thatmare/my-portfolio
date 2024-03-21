@@ -1,7 +1,7 @@
-import Image from "next/image";
 import { DM_Sans } from "next/font/google";
-import About from "@/app/components/About";
-import Jobs from "@/app/components/Jobs";
+import Intro from "./components/Intro";
+import About from "./components/About";
+import Jobs from "./components/Jobs";
 import Projects from "./components/Projects";
 
 const dm = DM_Sans({
@@ -11,6 +11,7 @@ const dm = DM_Sans({
 export default function Home() {
   return (
     <main className={dm.className}>
+      <Intro/>
       <About/>
       <Jobs/>
       <Projects/>
