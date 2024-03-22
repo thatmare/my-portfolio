@@ -1,4 +1,5 @@
 import { Spline_Sans_Mono } from "next/font/google";
+import Image from "next/image";
 
 const spline = Spline_Sans_Mono({
   subsets: ["latin"],
@@ -6,8 +7,8 @@ const spline = Spline_Sans_Mono({
 
 export default function About() {
   return (
-    <section className="mb-20">
-      <div className="sticky top-0 w-full backdrop-blur-sm px-8 py-4">
+    <section className="mb-20" id="about">
+      <div className="sticky top-0 w-full backdrop-blur-sm px-8 py-4 lg:hidden">
         <h3
           className={`${spline.className} font-semibold tracking-widest text-moody-blue-400`}
         >
@@ -38,7 +39,7 @@ export default function About() {
           , as analytical and communication abilities are crucial for
           problem-solving and teamwork. And, honestly, it’s satisfying to solve
           a programming challenge.
-        </p>
+        </p>  
       </div>
     </section>
   );

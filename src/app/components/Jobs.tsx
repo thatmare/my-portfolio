@@ -7,8 +7,8 @@ const spline = Spline_Sans_Mono({
 
 export default function Jobs() {
   return (
-    <section className="mb-20">
-      <div className="sticky top-0 w-full backdrop-blur-sm">
+    <section className="mb-20" id="experience">
+      <div className="sticky top-0 w-full backdrop-blur-sm lg:hidden">
         <h3
           className={`${spline.className} text-moody-blue-400 font-semibold tracking-widest px-8 py-4`}
         >

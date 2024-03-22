@@ -9,8 +9,8 @@ const spline = Spline_Sans_Mono({
 
 export default function Projects() {
   return (
-    <section className="mb-20">
-      <div className="sticky top-0 w-full backdrop-blur-sm z-10">
+    <section className="mb-20" id="projects">
+      <div className="sticky top-0 w-full backdrop-blur-sm z-10 lg:hidden">
         <h3
           className={`${spline.className} font-semibold tracking-widest px-8 py-4 text-moody-blue-400`}
         >
@@ -22,13 +22,13 @@ export default function Projects() {
           <div
             key={index}
             // className="mb-8 border-2 border-moody-blue-800 rounded-md p-2 grid sm:grid-cols-3"
-            className="mb-8 p-2 grid sm:grid-cols-3"
+            className="mb-8 grid sm:grid-cols-4 py-4"
           >
-            <div className="sm:col-span-2">
+            <div className="sm:col-span-3">
               <div className="flex items-center">
                 <LinkSvg className="fill-moody-blue-200/90 mr-2" />
                 <a href={project.link}>
-                  <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg py-2">
+                  <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg">
                     {project.title}
                   </h4>
                 </a>
@@ -48,7 +48,7 @@ export default function Projects() {
               </ul>
             </div>
             <div className="sm:order-first">
-              <Image src={project.image} width={120} height={70} alt="" className="rounded-lg sm:mx-auto sm:py-4"/>
+              <Image src={project.image} width={120} height={70} alt="" className="rounded-md  sm:py-2"/>
             </div>
           </div>
         ))}
