@@ -21,14 +21,13 @@ export default function Projects() {
         {data.projects.map((project, index) => (
           <div
             key={index}
-            // className="mb-8 border-2 border-moody-blue-800 rounded-md p-2 grid sm:grid-cols-3"
             className="mb-8 grid sm:grid-cols-4 py-4"
           >
-            <div className="sm:col-span-3">
-              <div className="flex items-center">
-                <LinkSvg className="fill-moody-blue-200/90 mr-2" />
+            <div className="sm:col-span-3 lg:ml-5">
+              <div className="flex items-center group">
+                <LinkSvg className="fill-moody-blue-200/90 mr-2 group-hover:fill-moody-blue-400 group-hover:w-5 group-hover:h-5 transition-all" />
                 <a href={project.link}>
-                  <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg">
+                  <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg group-hover:text-moody-blue-400 group-hover:text-xl transition-all">
                     {project.title}
                   </h4>
                 </a>
@@ -48,7 +47,7 @@ export default function Projects() {
               </ul>
             </div>
             <div className="sm:order-first">
-              <Image src={project.image} width={120} height={70} alt="" className="rounded-md  sm:py-2"/>
+              <Image src={project.image} width={120} height={70} alt="" className="rounded-md sm:my-2"/>
             </div>
           </div>
         ))}

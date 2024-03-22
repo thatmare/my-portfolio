@@ -25,15 +25,15 @@ export default function Intro() {
         <ul
           className={`${spline.className} text-moody-blue-400 font-semibold hidden h-40 lg:block`}
         >
-          <li>
+          <li className="h-10">
             <a href="#about" className="group flex items-center py-2">
               <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
-              <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-hover:tracking-widest group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg  transition-all">
+              <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-hover:tracking-widest group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">
                 about
               </span>
             </a>
           </li>
-          <li>
+          <li className="h-10">
             <a href="#experience" className="group flex items-center py-2">
               <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
               <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-hover:tracking-widest group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">
@@ -41,7 +41,7 @@ export default function Intro() {
               </span>
             </a>
           </li>
-          <li>
+          <li className="h-10">
             <a href="#projects" className="group flex items-center py-2">
               <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
               <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-hover:tracking-widest group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">
@@ -52,14 +52,14 @@ export default function Intro() {
         </ul>
       </nav>
       <div className="flex flex-row my-4">
-        <a href="https://www.linkedin.com/in/thatmare/">
-          <LinkedinSvg className="mr-2" />
+        <a href="https://www.linkedin.com/in/thatmare/" className="flex items-center justify-center w-14 h-14">
+          <LinkedinSvg className=" hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
-        <a href="https://github.com/thatmare">
-          <GithubSvg className="mx-2" />
+        <a href="https://github.com/thatmare" className="flex items-center justify-center w-14 h-14">
+          <GithubSvg className="  hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
-        <a href="mailto:marissa.lorena@hotmail.com">
-          <EmailSvg className="mx-2" />
+        <a href="mailto:marissa.lorena@hotmail.com" className="flex items-center justify-center w-14 h-14">
+          <EmailSvg className="hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
       </div>
     </header>
