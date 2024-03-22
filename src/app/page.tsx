@@ -6,16 +6,18 @@ import Projects from "./components/Projects";
 import Head from "next/head";
 
 const dm = DM_Sans({
-  subsets: ['latin']
-})
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
-    <main className={dm.className}>
-      <Intro/>
-      <About/>
-      <Jobs/>
-      <Projects/>
-    </main>
+      <div className={`${dm.className} lg:flex lg:justify-between`}>
+        <Intro />
+        <main className="lg:w-1/2 lg:pr-20">
+          <About />
+          <Jobs />
+          <Projects />
+        </main>
+      </div>
   );
 }

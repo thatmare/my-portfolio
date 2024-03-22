@@ -1,5 +1,4 @@
 import { Spline_Sans_Mono } from "next/font/google";
-import Image from "next/image";
 
 const spline = Spline_Sans_Mono({
   subsets: ["latin"],
@@ -7,7 +6,7 @@ const spline = Spline_Sans_Mono({
 
 export default function About() {
   return (
-    <section className="mb-20" id="about">
+    <section className="mb-20 lg:py-20 lg:mb-0" id="about">
       <div className="sticky top-0 w-full backdrop-blur-sm px-8 py-4 lg:hidden">
         <h3
           className={`${spline.className} font-semibold tracking-widest text-moody-blue-400`}

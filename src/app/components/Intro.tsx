@@ -9,55 +9,59 @@ const spline = Spline_Sans_Mono({
 
 export default function Intro() {
   return (
-    <section className="px-8 mb-20">
-      <div className="mb-20">
-        <h1
-          className={`${spline.className} text-moody-blue-400/80 tracking-widest text-3xl font-bold pt-20 lg:text-5xl`}
+    <header className="px-8 mb-20 lg:w-1/2 lg:sticky lg:top-0 lg:max-h-screen lg:pl-20 lg:mb-0">
+      <h1
+        className={`${spline.className} text-moody-blue-400/80 tracking-widest text-3xl font-bold pt-20 lg:text-5xl`}
+      >
+        Marissa Vargas Sánchez
+      </h1>
+      <h2 className="text-moody-blue-200/90 font-medium text-xl py-2 lg:text-2xl">
+        Frontend Developer
+      </h2>
+      <p className="font-light lg:text-lg">
+        I find creativity in building digital products.
+      </p>
+      <nav>
+        <ul
+          className={`${spline.className} text-moody-blue-400 font-semibold hidden h-40 lg:block`}
         >
-          Marissa Vargas Sánchez
-        </h1>
-        <h2 className="text-moody-blue-200/90 font-medium text-xl py-2 lg:text-2xl">
-          Frontend Developer
-        </h2>
-        <p className="font-light lg:text-lg">
-          I find creativity in building digital products.
-        </p>
-        <nav>
-          <ul
-            className={`${spline.className} text-moody-blue-400 font-semibold tracking-widest hidden h-40 lg:block`}
-          >
-            <li>
-              <a href="#about" className="group flex items-center py-2">
-                <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
-                <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">about</span>
-              </a>
-            </li>
-            <li>
-              <a href="#experience" className="group flex items-center py-2">
-                <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
-                <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">relevant experience</span>
-              </a>
-            </li>
-            <li>
-              <a href="#projects" className="group flex items-center py-2">
-                <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
-                <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">projects</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div className="flex flex-row my-4">
-          <a href="https://github.com/thatmare">
-            <GithubSvg className="mr-2" />
-          </a>
-          <a href="https://www.linkedin.com/in/thatmare/">
-            <LinkedinSvg className="mx-2" />
-          </a>
-          <a href="mailto:marissa.lorena@hotmail.com">
-            <EmailSvg className="mx-2" />
-          </a>
-        </div>
+          <li>
+            <a href="#about" className="group flex items-center py-2">
+              <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
+              <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-hover:tracking-widest group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg  transition-all">
+                about
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#experience" className="group flex items-center py-2">
+              <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
+              <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-hover:tracking-widest group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">
+                relevant experience
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="group flex items-center py-2">
+              <span className="block w-10 h-px bg-moody-blue-400 mr-2 group-hover:bg-moody-blue-200 group-hover:w-14 transition-all"></span>
+              <span className="group-hover:text-moody-blue-200 group-hover:text-lg group-hover:tracking-widest group-focus-visible:text-moody-blue-200 group-focus-visible:text-lg transition-all">
+                projects
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div className="flex flex-row my-4">
+        <a href="https://www.linkedin.com/in/thatmare/">
+          <LinkedinSvg className="mr-2" />
+        </a>
+        <a href="https://github.com/thatmare">
+          <GithubSvg className="mx-2" />
+        </a>
+        <a href="mailto:marissa.lorena@hotmail.com">
+          <EmailSvg className="mx-2" />
+        </a>
       </div>
-    </section>
+    </header>
   );
 }

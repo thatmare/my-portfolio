@@ -9,7 +9,7 @@ const spline = Spline_Sans_Mono({
 
 export default function Projects() {
   return (
-    <section className="mb-20" id="projects">
+    <section className="mb-20 lg:py-12 lg:mb-0" id="projects">
       <div className="sticky top-0 w-full backdrop-blur-sm z-10 lg:hidden">
         <h3
           className={`${spline.className} font-semibold tracking-widest px-8 py-4 text-moody-blue-400`}
