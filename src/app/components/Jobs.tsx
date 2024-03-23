@@ -15,7 +15,6 @@ export default function Jobs() {
           relevant experience
         </h3>
       </div>
-      {/* job card */}
       <div className="px-8">
         {data.jobs.map((job, index) => (
           <div key={index} className="mb-8 grid sm:grid-cols-3">

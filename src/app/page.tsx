@@ -3,7 +3,6 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Jobs from "./components/Jobs";
 import Projects from "./components/Projects";
-import Head from "next/head";
 
 const dm = DM_Sans({
   subsets: ["latin"],
@@ -11,7 +10,7 @@ const dm = DM_Sans({
 
 export default function Home() {
   return (
-      <div className={`${dm.className} lg:flex lg:justify-between`}>
+      <div className={`${dm.className} lg:flex lg:justify-between selection:bg-moody-blue-400 selection:text-slate-950`}>
         <Intro />
         <main className="lg:w-1/2 lg:pr-20">
           <About />

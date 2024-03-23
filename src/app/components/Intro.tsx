@@ -52,13 +52,22 @@ export default function Intro() {
         </ul>
       </nav>
       <div className="flex flex-row my-4">
-        <a href="https://www.linkedin.com/in/thatmare/" className="flex items-center justify-center w-14 h-14">
-          <LinkedinSvg className=" hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
+        <a
+          href="https://www.linkedin.com/in/thatmare/"
+          className="flex items-center justify-center w-14 h-14"
+        >
+          <LinkedinSvg className="hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
-        <a href="https://github.com/thatmare" className="flex items-center justify-center w-14 h-14">
-          <GithubSvg className="  hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
+        <a
+          href="https://github.com/thatmare"
+          className="flex items-center justify-center w-14 h-14"
+        >
+          <GithubSvg className="hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
-        <a href="mailto:marissa.lorena@hotmail.com" className="flex items-center justify-center w-14 h-14">
+        <a
+          href="mailto:marissa.lorena@hotmail.com"
+          className="flex items-center justify-center w-14 h-14"
+        >
           <EmailSvg className="hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
       </div>

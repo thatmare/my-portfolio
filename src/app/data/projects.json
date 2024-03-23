@@ -4,32 +4,32 @@
       "title": "Powertrain Ventures",
       "description": "Website for a startup accelerator and startup studio.",
       "link": "https://powertrain-ventures.com/",
-      "image": "/powertrain-ventures.png",
-      "alt": "",
+      "image": "/powertrain-ventures.webp",
+      "alt": "Powertrain Ventures website homepage",
       "skills": ["WordPress", "Elementor"]
     },
     {
       "title": "Queen Patty's",
       "description": "Web app for restaurant management where admins are able to manage users and products, while waiters and chefs can tabke, see and complete orders.",
       "link": "https://github.com/thatmare/Queen-pattys",
-      "image": "/queen-pattys.png",
-      "alt": "",
+      "image": "/queen-pattys.webp",
+      "alt": "Queen Patty's login page",
       "skills": ["React", "TypeScript", "Tailwind CSS", "Jest"]
     },
     {
       "title": "md-links-thatmare",
       "description": "Library and a command-line interface to analyze the links in Markdown files.",
       "link": "https://www.npmjs.com/package/md-links-thatmare",
-      "image": "/npm.png",
-      "alt": "",
+      "image": "/npm.webp",
+      "alt": "npm",
       "skills": ["Node.js", "JavaScript", "Axios", "Jest"]
     },
     {
         "title": "Be My Friend",
         "description": "Web app that serves as a social network for homeless animals or animals caregivers who are looking for adoption.",
         "link": "https://github.com/thatmare/Be-My-Friend",
-        "image": "/be-my-friend.png",
-        "alt": "",
+        "image": "/be-my-friend.webp",
+        "alt": "Be My Friend login page",
         "skills": ["JavaScript", "Firebase", "CSS", "Jest"]
     }
   ]
