@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="https://raw.githubusercontent.com/thatmare/my-portfolio/portfolio/src/app/favicon.ico" width="50" height="50"/>
+  <h1>Marissa Vargas Sánchez</h1>
+  <p>First version of my frontend developer portfolio.</p>
+  <p>UI design by the amazing <a href="https://brittanychiang.com/" target="_blank">Brittany Chiang</a>. Check her work!</p>
+</div>
 
-## Getting Started
+## Development
+It was developed with Next.js, TypeScript and Tailwind CSS. 
 
-First, run the development server:
+## Style Reference
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Color palette
+It was made with the [Tailwind CSS Color Generator](https://uicolors.app/create). 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| moody-blue-200 | ![#c4caff](https://via.placeholder.com/10/c4caff?text=+) `#c4caff` |
+| moody-blue-300 | ![#a0a7ff](https://via.placeholder.com/10/a0a7ff?text=+) `#a0a7ff` |
+| moody-blue-400 | ![#7371ff](https://via.placeholder.com/10/7371ff?text=+) `#7371ff` |
+| moody-blue-500 | ![#695bf9](https://via.placeholder.com/10/695bf9?text=+) `#695bf9` |
+| moody-blue-800 | ![#3f29aa](https://via.placeholder.com/10/3f29aa?text=+) `#3f29aa` |
+| slate-900      | ![#0f172a](https://via.placeholder.com/10/0f172a?text=+) `#0f172a` |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Fonts
+- [Spline Sans Mono](https://fonts.google.com/specimen/Spline+Sans+Mono)
+- [DM Sans](https://fonts.google.com/specimen/DM+Sans)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Favicon
+![favicon-16x16](https://github.com/thatmare/my-portfolio/assets/113146161/bb4948e3-5f97-4fcd-827c-da676f34239f)  It was made with the [Favicon generator](https://favicon.io/favicon-generator/). 
