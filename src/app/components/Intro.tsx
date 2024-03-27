@@ -55,18 +55,24 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/thatmare/"
           className="flex items-center justify-center w-14 h-14"
+          target="_blank"
+          aria-label="LinkedIn (opens in a new tab)"
         >
           <LinkedinSvg className="hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
         <a
           href="https://github.com/thatmare"
           className="flex items-center justify-center w-14 h-14"
+          target="_blank"
+          aria-label="GitHub (opens in a new tab)"
         >
           <GithubSvg className="hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>
         <a
           href="mailto:marissa.lorena@hotmail.com"
           className="flex items-center justify-center w-14 h-14"
+          target="_blank"
+          aria-label="Email (opens in a new window to send email)"
         >
           <EmailSvg className="hover:fill-moody-blue-400 hover:w-10 hover:h-10 transition-all" />
         </a>

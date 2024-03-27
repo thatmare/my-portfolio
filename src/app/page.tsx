@@ -9,8 +9,9 @@ const dm = DM_Sans({
 });
 
 export default function Home() {
+
   return (
-      <div className={`${dm.className} lg:flex lg:justify-between selection:bg-moody-blue-400 selection:text-slate-950`}>
+      <div className={`${dm.className} max-w-screen-2xl lg:flex lg:justify-between selection:bg-moody-blue-400 selection:text-slate-950`}>
         <Intro />
         <main className="lg:w-1/2 lg:pr-20">
           <About />
