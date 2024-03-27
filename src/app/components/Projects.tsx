@@ -24,9 +24,9 @@ export default function Projects() {
             className="mb-8 grid sm:grid-cols-4 py-4"
           >
             <div className="sm:col-span-3 lg:ml-5">
-              <div className="flex items-center group">
+              <div className=" group"> {/* layout de link */}
+                <a href={project.link} target="_blank" aria-label={project.linkAlt}>
                 <LinkSvg className="fill-moody-blue-200/90 mr-2 group-hover:fill-moody-blue-400 group-hover:w-5 group-hover:h-5 transition-all" />
-                <a href={project.link}>
                   <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg group-hover:text-moody-blue-400 group-hover:text-xl transition-all">
                     {project.title}
                   </h4>
@@ -47,7 +47,7 @@ export default function Projects() {
               </ul>
             </div>
             <div className="sm:order-first">
-              <Image src={project.image} width={120} height={70} alt="" className="rounded-md sm:my-2"/>
+              <Image src={project.image} width={120} height={70} alt={project.imgAlt} className="rounded-md sm:my-2"/>
             </div>
           </div>
         ))}
