@@ -6,7 +6,3 @@ body {
     @apply bg-slate-900;
     @apply text-moody-blue-200/60;
 }
-
-::selection {
-    background: bg-moody-blue-500;
-}

@@ -24,8 +24,8 @@ export default function Projects() {
             className="mb-8 grid sm:grid-cols-4 py-4"
           >
             <div className="sm:col-span-3 lg:ml-5">
-              <div className=" group"> {/* layout de link */}
-                <a href={project.link} target="_blank" aria-label={project.linkAlt}>
+              <div className="group">
+                <a href={project.link} target="_blank" aria-label={project.linkAlt} className="flex items-center">
                 <LinkSvg className="fill-moody-blue-200/90 mr-2 group-hover:fill-moody-blue-400 group-hover:w-5 group-hover:h-5 transition-all" />
                   <h4 className="font-bold text-moody-blue-200 tracking-wider text-lg group-hover:text-moody-blue-400 group-hover:text-xl transition-all">
                     {project.title}
@@ -39,7 +39,7 @@ export default function Projects() {
                 {project.skills.map((skill, i) => (
                   <li
                     key={i}
-                    className={`${spline.className} bg-moody-blue-950 text-moody-blue-400  flex items-center rounded-full py-1 px-3 m-1 text-xs`}
+                    className={`${spline.className} bg-moody-blue-950 text-moody-blue-300 font-medium flex items-center rounded-full py-1 px-3 m-1 text-xs`}
                   >
                     {skill}
                   </li>

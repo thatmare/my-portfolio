@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         url: `${ogUrl}`,
         width: 1200,
         height: 630,
-        alt: "Marissa Vargas Sánchez Frontend Developer",
+        alt: "Marissa Vargas Frontend Developer",
       },
     ],
   },

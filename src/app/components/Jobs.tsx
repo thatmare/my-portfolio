@@ -30,7 +30,7 @@ export default function Jobs() {
                 {job.skills.map((skill, i) => (
                   <li
                     key={i}
-                    className={`${spline.className} bg-moody-blue-950 text-moody-blue-400 flex items-center rounded-full py-1 px-3 m-1 text-xs`}
+                    className={`${spline.className} bg-moody-blue-950 text-moody-blue-300 font-medium flex items-center rounded-full py-1 px-3 m-1 text-xs`}
                   >
                     {skill}
                   </li>
