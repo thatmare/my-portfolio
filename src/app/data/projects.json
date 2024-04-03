@@ -5,17 +5,36 @@
       "description": "Website for a startup accelerator and startup studio.",
       "link": "https://powertrain-ventures.com/",
       "linkAlt": "Powertrain Ventures website (opens in a new tab)",
-      "image": "/powertrain-ventures.webp",
-      "imgAlt": "Powertrain Ventures website homepage",
+      "image": "/pv-cover.svg",
+      "imgAlt": "Powertrain Ventures",
       "skills": ["WordPress", "Elementor"]
     },
+    {
+      "title": "Tasks Management API",
+      "status": "In Process",
+      "description": "CRUD API for task management. Also able to send email to reset password",
+      "link": "https://github.com/thatmare/tasks-management-api",
+      "linkAlt": "GitHub repository for Tasks Management API (opens in a new tab)",
+      "image": "/github.webp",
+      "imgAlt": "GitHub",
+      "skills": ["NestJS", "TypeScript", "Jest"]
+    },
+    {
+      "title": "Resistor Calculator",
+      "description": "The calculator is a web app that allows users to calculate the value in Ohms of an electrical resistance based on the colors of its bands. It the color coding standard used in electrical resistors, where each color represents a numerical value.",
+      "link": "https://github.com/thatmare/resistor-calculator",
+      "linkAlt": "GitHub repository for Resistor Calculator (opens in a new tab)",
+      "image": "/resistor-calculator.png",
+      "imgAlt": "GitHub",
+      "skills": ["React", "Express", "MongoDB", "Tailwind CSS", "Node.js"]
+    },  
     {
       "title": "Queen Patty's",
       "description": "Web app for restaurant management where admins are able to manage users and products, while waiters and chefs can tabke, see and complete orders.",
       "link": "https://github.com/thatmare/Queen-pattys",
       "linkAlt": "GitHub repository for Queen Patty's web app (opens in a new tab)",
-      "image": "/queen-pattys.webp",
-      "imgAlt": "Queen Patty's login page",
+      "image": "/queen-pattys-cover.svg",
+      "imgAlt": "Queen Patty's Diner",
       "skills": ["React", "TypeScript", "Tailwind CSS", "Jest"]
     },
     {
@@ -32,8 +51,8 @@
         "description": "Web app that serves as a social network for homeless animals or animals caregivers who are looking for adoption.",
         "link": "https://github.com/thatmare/Be-My-Friend",
         "linkAlt": "GitHub repository for Be My Friend web app (opens in a new tab)",
-        "image": "/be-my-friend.webp",
-        "imgAlt": "Be My Friend login page",
+        "image": "/be-my-friend-cover.svg",
+        "imgAlt": "Be My Friend",
         "skills": ["JavaScript", "Firebase", "CSS", "Jest"]
     }
   ]
