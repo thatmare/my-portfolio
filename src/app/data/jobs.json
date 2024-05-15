@@ -1,9 +1,20 @@
 {
   "jobs": [
     {
+      "title": "Fullstack Developer",
+      "place": "Cencosud Ventures",
+      "period": "May 2024 - Present",
+      "skills": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Express"
+      ]
+    },
+    {
       "title": "Web Developer",
       "place": "Powertrain Ventures",
-      "period": "October 2023 - 2024",
+      "period": "October 2023 - April 2024",
       "skills": [
         "WordPress",
         "HTML",
