@@ -1,6 +1,7 @@
-import Image from "next/image";
 import data from "@/app/data/projects.json";
 import { Spline_Sans_Mono } from "next/font/google";
+import Image from "next/image";
+
 import LinkSvg from "./svg/Link";
 
 const spline = Spline_Sans_Mono({

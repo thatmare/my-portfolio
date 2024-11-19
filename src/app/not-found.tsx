@@ -4,7 +4,6 @@ import { Spline_Sans_Mono } from "next/font/google";
 const spline = Spline_Sans_Mono({
     subsets: ["latin"],
   });
-  
 
 export default function NotFound() {
     return (

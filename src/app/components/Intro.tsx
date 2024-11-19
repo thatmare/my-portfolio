@@ -1,4 +1,5 @@
 import { Spline_Sans_Mono } from "next/font/google";
+
 import GithubSvg from "./svg/Github";
 import LinkedinSvg from "./svg/Linkedin";
 import EmailSvg from "./svg/Email";

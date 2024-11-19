@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+
 import "./globals.css";
 
 const ogUrl = process.env.NEXT_OG;

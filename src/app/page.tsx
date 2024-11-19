@@ -1,4 +1,5 @@
 import { DM_Sans } from "next/font/google";
+
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Jobs from "./components/Jobs";
