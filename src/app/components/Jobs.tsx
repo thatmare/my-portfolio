@@ -1,20 +1,11 @@
 import data from "@/app/data/jobs.json";
-import { Spline_Sans_Mono } from "next/font/google";
-
-const spline = Spline_Sans_Mono({
-  subsets: ["latin"],
-});
+import { spline } from "@/assets/fonts/spline";
+import { StickyTitle } from "./sticky-title";
 
 export default function Jobs() {
   return (
     <section className="mb-20 lg:py-12 lg:mb-0" id="experience">
-      <div className="sticky top-0 w-full backdrop-blur-sm lg:hidden">
-        <h3
-          className={`${spline.className} text-moody-blue-400 font-semibold tracking-widest px-8 py-4`}
-        >
-          relevant experience
-        </h3>
-      </div>
+      <StickyTitle title="relevant experience" />
       <div className="px-8">
         {data.jobs.map((job, index) => (
           <div key={index} className="mb-8 grid sm:grid-cols-3">

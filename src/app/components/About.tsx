@@ -1,19 +1,9 @@
-import { Spline_Sans_Mono } from "next/font/google";
-
-const spline = Spline_Sans_Mono({
-  subsets: ["latin"],
-});
+import { StickyTitle } from "./sticky-title";
 
 export default function About() {
   return (
     <section className="mb-20 lg:py-20 lg:mb-0" id="about">
-      <div className="sticky top-0 w-full backdrop-blur-sm px-8 py-4 lg:hidden">
-        <h3
-          className={`${spline.className} font-semibold tracking-widest text-moody-blue-400`}
-        >
-          about
-        </h3>
-      </div>
+      <StickyTitle title="about" />
       <div className="px-8">
         <p className="font-light leading-relaxed">
           In 2022 I decided to pivot in my professional life: I started to code.
@@ -29,16 +19,14 @@ export default function About() {
           Slow but steady, I fell in love with it.
           <br />
           <br />
-          Nowadays, as a developer, my main focus is in the frontend side of
-          buidling digital products. I find beauty in landing designs.{" "}
           <span className="font-bold text-moody-blue-200/80">
             I consider that the skills I acquired from the humanities field
-            define me as a frontend programmer
+            define me as a fullstack programmer
           </span>
           , as analytical and communication abilities are crucial for
           problem-solving and teamwork. And, honestly, it’s satisfying to solve
           a programming challenge.
-        </p>  
+        </p>
       </div>
     </section>
   );

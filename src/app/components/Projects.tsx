@@ -1,23 +1,14 @@
 import data from "@/app/data/projects.json";
-import { Spline_Sans_Mono } from "next/font/google";
 import Image from "next/image";
 
+import { spline } from "@/assets/fonts/spline";
+import { StickyTitle } from "./sticky-title";
 import LinkSvg from "./svg/Link";
-
-const spline = Spline_Sans_Mono({
-  subsets: ["latin"],
-});
 
 export default function Projects() {
   return (
     <section className="mb-20 lg:py-12 lg:mb-0" id="projects">
-      <div className="sticky top-0 w-full backdrop-blur-sm z-10 lg:hidden">
-        <h3
-          className={`${spline.className} font-semibold tracking-widest px-8 py-4 text-moody-blue-400`}
-        >
-          projects
-        </h3>
-      </div>
+      <StickyTitle title="projects" />
       <div className="px-8">
         {data.projects.map((project, index) => (
           <div key={index} className="mb-8 grid sm:grid-cols-4 py-4">
@@ -35,7 +26,13 @@ export default function Projects() {
                   </h4>
                 </a>
               </div>
-              {project.status && <p className={`${spline.className} bg-moody-blue-300 text-moody-blue-950 font-medium tracking-wider block w-fit rounded-full py-1 px-3 m-1 text-xs`}>{project.status}</p>}
+              {project.status && (
+                <p
+                  className={`${spline.className} bg-moody-blue-300 text-moody-blue-950 font-medium tracking-wider block w-fit rounded-full py-1 px-3 m-1 text-xs`}
+                >
+                  {project.status}
+                </p>
+              )}
               <p className="py-2 font-extralight leading-relaxed">
                 {project.description}
               </p>

@@ -14,10 +14,18 @@ export async function GET() {
   return new ImageResponse(
     (
       <div tw="flex flex-col w-full h-full items-center justify-center bg-slate-900">
-        <h1 style={{ fontFamily: "Spline" }} tw="text-indigo-400/80 text-8xl tracking-wider">
+        <h1
+          style={{ fontFamily: "Spline" }}
+          tw="text-indigo-400/80 text-8xl tracking-wider"
+        >
           Marissa Vargas
         </h1>
-        <h2 style={{ fontFamily: "DmSans" }} tw="text-indigo-400/80 text-6xl bg-indigo-900 py-2 px-10 rounded-full">Frontend Developer</h2>
+        <h2
+          style={{ fontFamily: "DmSans" }}
+          tw="text-indigo-400/80 text-6xl bg-indigo-900 py-2 px-10 rounded-full"
+        >
+          Frontend Developer
+        </h2>
       </div>
     ),
     {
@@ -28,10 +36,10 @@ export async function GET() {
           style: "normal",
         },
         {
-            name: "DmSans",
-            data: fontDmSans,
-            style: "normal",
-        }
+          name: "DmSans",
+          data: fontDmSans,
+          style: "normal",
+        },
       ],
     }
   );
