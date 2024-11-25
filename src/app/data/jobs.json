@@ -4,25 +4,74 @@
       "title": "Fullstack Developer",
       "place": "Cencosud Ventures",
       "period": "May 2024 - Present",
-      "skills": [
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "Express"
-      ]
+      "skills": ["TypeScript", "Next.js", "Tailwind CSS", "Express"],
+      "detail": {
+        "features": [
+          {
+            "feature_name": "Data models migration",
+            "description": "Initially, the platform focused on surplus food sales through predefined baskets (fruit, vegetable, or weekly options) with an additional product selection feature. Following a user research phase, the business transitioned entirely to a community group buying model, necessitating a redesign of the purchasing flow and extensive database migrations to adapt orders, sellers, and users while preserving historical data. I developed and executed scripts using TypeScript, Mongoose, and MongoDB, implementing changes to data models that streamlined order management, unified cost tracking, and improved the user experience by transitioning to a more traditional e-commerce structure. I worked closely with a senior fullstack developer during the initial stages and subsequently took ownership of the technical adjustments needed for production deployment.",
+            "achievements": [
+              "Total sales increased from 4,500 USD to 7,000 USD within the first month of implementation."
+            ],
+            "technologies": ["TypeScript", "Mongoose", "MongoDB"]
+          },
+          {
+            "feature_name": "Backoffice protection for admin users",
+            "description": "I implemented a security layer to restrict backoffice access based on user roles using NextAuth and AWS Cognito. I defined two distinct roles: Administrators: granted full access to sections like orders, vendor profiles, product management, product picking, and order assembly. Pickers: limited to the product picking and order assembly sections. To enforce these roles, I developed a decorator function named withRoleProtection to wrap the getServerSideProps method. This middleware checks for an active user session and verifies their authorized role before granting access. Unauthorized users are redirected to the login page or a role-specific default page. This approach enabled reusable and robust access controls without altering the core logic of each page.",
+            "technologies": ["NextAuth", "AWS Cognito"],
+            "images": ["/login.png", "/picking.jpg", "/admin.jpg"]
+          },
+          {
+            "feature_name": "Product categorization",
+            "description": "Previously, users had to scroll through an extensive list of categories, making the purchase process slow, especially when editing orders. Additionally, administrators lacked an efficient way to manage categories and subcategories. Implemented Changes: Frontend - Client: In the product catalog, users can now filter by subcategories using a dropdown, improving navigation while maintaining order state when changing filters. Frontend - Backoffice: Added functionality for administrators to assign subcategories to products, with subcategories automatically linking to their parent categories. When creating or editing products, the category updates automatically based on the selected subcategory. Backend: Modified the product model to include arrays of IDs referencing categories and subcategories. Developed endpoints and managers to perform CRUD actions for categories, subcategories, and products. Ensured system scalability by using document references, enabling efficient management of large datasets.",
+            "achievements": [
+              "The optimized purchasing flow increased sales by 20%, simplifying and accelerating the user experience.",
+              "Administrators now manage categories and subcategories in a more structured and scalable way."
+            ],
+            "technologies": [
+              "TypeScript",
+              "Next.js",
+              "Tailwind CSS",
+              "Express",
+              "Mongoose"
+            ],
+            "images": [
+              "/subcategories.png",
+              "/subcateogires-2.png",
+              "/subcategories-3.png",
+              "/subcategories-4.jpg"
+            ]
+          },
+          {
+            "feature_name": "Shopping cart",
+            "description": "I developed an interactive shopping cart that allowed users to easily manage their orders, resulting in a doubling of sales within its first week of launch. It allowed to add, subtract, or remove products from the cart, as well as clear the cart entirely. The cart displayed a real-time summary of the total products and accumulated cost.",
+            "achievements": [
+              "Sales doubled within the first week of the shopping cart's launch."
+            ],
+            "technologies": ["TypeScript", "Next.js", "Tailwind CSS"]
+          },
+          {
+            "feature_name": "Cash on delivery payment method",
+            "description": "I developed and implemented an automated solution for cash-on-delivery and bank transfer payments at Canasta Ahorro, leveraging TypeScript, Express, and integrations with Payku and Mailchimp APIs. Customers could select this option and pay to their seller. Later, the selleres received an automated email with payment links. They could pay in either cash or bank transfer.",
+            "achievements": [
+              "$3,000 USD processed in the first month after implementation.",
+              "Accounted for 35% of the company’s total transactions, diversifying payment methods and increasing accessibility for elder customers."
+            ],
+            "technologies": [
+              "TypeScript",
+              "Express",
+              "Payku API",
+              "Mailchimp API"
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Web Developer",
       "place": "Powertrain Ventures",
       "period": "October 2023 - April 2024",
-      "skills": [
-        "WordPress",
-        "HTML",
-        "CSS",
-        "RESTful APIs",
-        "Jira",
-        "SCRUM"
-      ],
+      "skills": ["WordPress", "HTML", "CSS", "RESTful APIs", "Jira", "SCRUM"],
       "description": "Lead the rebranding of the company's website, optimizing the UI design, performance and mobile responsiveness. Manage the IT operations, improving processes by implementing project management and communication tools. Work closely with the business strategy and marketing teams to advocate for the company's path."
     },
     {

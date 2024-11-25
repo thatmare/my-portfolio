@@ -3,21 +3,9 @@
     {
       "title": "Powertrain Ventures",
       "description": "Website for a startup accelerator and startup studio.",
-      "link": "https://powertrain-ventures.com/",
-      "linkAlt": "Powertrain Ventures website (opens in a new tab)",
       "image": "/pv-cover.svg",
       "imgAlt": "Powertrain Ventures",
       "skills": ["WordPress", "Elementor"]
-    },
-    {
-      "title": "Tasks Management API",
-      "status": "In Process",
-      "description": "CRUD API for task management. Also able to send email to reset password",
-      "link": "https://github.com/thatmare/tasks-management-api",
-      "linkAlt": "GitHub repository for Tasks Management API (opens in a new tab)",
-      "image": "/github.webp",
-      "imgAlt": "GitHub",
-      "skills": ["NestJS", "TypeScript", "Jest"]
     },
     {
       "title": "Resistor Calculator",
@@ -27,7 +15,7 @@
       "image": "/resistor-calculator.png",
       "imgAlt": "GitHub",
       "skills": ["React", "Express", "MongoDB", "Tailwind CSS", "Node.js"]
-    },  
+    },
     {
       "title": "Queen Patty's",
       "description": "Web app for restaurant management where admins are able to manage users and products, while waiters and chefs can tabke, see and complete orders.",
@@ -47,13 +35,13 @@
       "skills": ["Node.js", "JavaScript", "Axios", "Jest"]
     },
     {
-        "title": "Be My Friend",
-        "description": "Web app that serves as a social network for homeless animals or animals caregivers who are looking for adoption.",
-        "link": "https://github.com/thatmare/Be-My-Friend",
-        "linkAlt": "GitHub repository for Be My Friend web app (opens in a new tab)",
-        "image": "/be-my-friend-cover.svg",
-        "imgAlt": "Be My Friend",
-        "skills": ["JavaScript", "Firebase", "CSS", "Jest"]
+      "title": "Be My Friend",
+      "description": "Web app that serves as a social network for homeless animals or animals caregivers who are looking for adoption.",
+      "link": "https://github.com/thatmare/Be-My-Friend",
+      "linkAlt": "GitHub repository for Be My Friend web app (opens in a new tab)",
+      "image": "/be-my-friend-cover.svg",
+      "imgAlt": "Be My Friend",
+      "skills": ["JavaScript", "Firebase", "CSS", "Jest"]
     }
   ]
 }
