@@ -6,17 +6,13 @@ export default function About() {
       <StickyTitle title="about" />
       <div className="px-8">
         <p className="font-light leading-relaxed">
-          In 2022 I decided to pivot in my professional life: I started to code.
-          In that time, I had a project for which I needed to create a website -
-          I said to myself, why not? And that’s how it all started.
+          I am a resilient and adaptable software professional with over 2 years
+          of experience in fullstack software development in startups.
           <br />
-          <br />I studied Applied Linguistics in university. As a former
-          language teacher, I spent my afternoons learning about CSS and
-          JavaScript. I realized something that never occurred to me:{" "}
-          <span className="font-bold text-moody-blue-200/80">
-            coding is a creative activity.
-          </span>{" "}
-          Slow but steady, I fell in love with it.
+          <br />
+          I have built products for startups, ranging from enterprise apps to
+          e-commerces, impacting positive outcomes through advanced data
+          modeling, seamless API integration, and intuitive UI/UX design.
           <br />
           <br />
           <span className="font-bold text-moody-blue-200/80">
@@ -24,8 +20,7 @@ export default function About() {
             define me as a fullstack programmer
           </span>
           , as analytical and communication abilities are crucial for
-          problem-solving and teamwork. And, honestly, it’s satisfying to solve
-          a programming challenge.
+          problem-solving and teamwork.
         </p>
       </div>
     </section>

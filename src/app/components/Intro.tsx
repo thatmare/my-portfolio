@@ -16,7 +16,7 @@ export default function Intro() {
         Fullstack Developer
       </h2>
       <p className="font-light lg:text-lg">
-        I love the creativity in building digital products.
+        I like to craft creative and innovative digital products.
       </p>
       <nav>
         <ul
@@ -29,7 +29,7 @@ export default function Intro() {
       </nav>
       <div className="flex flex-row my-4">
         <a
-          href="https://www.linkedin.com/in/thatmare/"
+          href="https://www.linkedin.com/in/marissa-vargas-sanchez/"
           className="flex items-center justify-center w-14 h-14"
           target="_blank"
           aria-label="LinkedIn (opens in a new tab)"
